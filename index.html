@@ -1,0 +1,737 @@
+<script>resizeTo(screen.availWidth, screen.availHeight);</script> 
+<script language=javascript>document.title=("ᴍ ᴀ ɢ﹕ᴇ")</script>
+
+<style>
+body{
+background-image: url('') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:100% 100%;
+background-color:#000000;
+}
+
+::-webkit-scrollbar {width: 5px; height: 5px;}
+::-webkit-scrollbar-track {background: none;}
+::-webkit-scrollbar-thumb {background: #FF6695;}
+
+#line {
+position:absolute;
+width:2%;
+height:100%;
+top:0%;
+left:2.5%;
+background-color:#FF6695;
+}
+
+#line1 {
+position:absolute;
+width:100%;
+height:4%;
+top:5%;
+left:0%;
+background-color:#FF6695;
+}
+
+#line2 {
+position:absolute;
+width:100%;
+top:9%;
+left:0%;
+border-top:dashed 5px #62F3B0;
+}
+
+#line3 {
+position:absolute;
+width:100%;
+height:2%;
+top:11%;
+left:0%;
+background-color:#46F9E6;
+}
+
+#line4 {
+position:absolute;
+width:100%;
+height:6%;
+top:88%;
+left:0%;
+background-color:#62F3B0;
+}
+
+#line5 {
+position:absolute;
+width:100%;
+top:90.6%;
+left:0%;
+border-top:dashed 5px #FF6695;
+}
+
+#line6 {
+position:absolute;
+width:100%;
+height:1%;
+top:86%;
+left:0%;
+background-color:#46F9E6;
+}
+
+#line7 {
+position:absolute;
+width:100%;
+height:1%;
+top:94%;
+left:0%;
+background-color: #FF6695;
+}
+
+#pic1 {
+position:absolute;
+width:15%;
+height:40%;
+top:20%;
+left:8%;
+background-image: url('') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:100% 100%;
+}
+
+#picbox1 {
+position:absolute;
+width:15%;
+height:40%;
+top:16%;
+left:10%;
+background-color:#46F9E6;
+}
+
+#electricoverlay1 {
+position:absolute;
+opacity:0;
+width:15%;
+height:40%;
+top:20%;
+left:8%;
+background-image: url('https://s6.gifyu.com/images/ezgif.com-rotated7efb3ec8ebe58d9.gif') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:100% 100%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#electricoverlay1:hover {
+opacity:0.5;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#titlebox1 {
+position:absolute;
+width:15%;
+height:4%;
+top:62%;
+left:8%;
+background-color:#2F344A;
+line-height:1.6;
+text-align:center;
+font-size:2.5vh;
+color:#62F3B0;
+font-family: 'Geo', sans-serif;
+text-transform:uppercase;
+}
+
+#box1 {
+position:absolute;
+width:15%;
+height:16%;
+top:66%;
+left:8%;
+background-color:#686F9B;
+line-height:2;
+text-align:center;
+color:#FFFFFF;
+font-size:1.5vh;
+font-family: 'Raleway', sans-serif;
+}
+
+#pic2 {
+position:absolute;
+width:15%;
+height:40%;
+top:38%;
+left:28%;
+background-image: url('') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:100% 100%;
+}
+
+#picbox2 {
+position:absolute;
+width:15%;
+height:40%;
+top:42%;
+left:30%;
+background-color:#FF6695;
+}
+
+#electricoverlay2 {
+position:absolute;
+opacity:0;
+width:15%;
+height:40%;
+top:38%;
+left:28%;
+background-image: url('https://s6.gifyu.com/images/ezgif.com-rotated7efb3ec8ebe58d9.gif') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:100% 100%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#electricoverlay2:hover {
+opacity:0.5;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#titlebox2 {
+position:absolute;
+width:15%;
+height:4%;
+top:16%;
+left:28%;
+background-color:#2F344A;
+line-height:1.6;
+text-align:center;
+font-size:2.5vh;
+color:#62F3B0;
+font-family: 'Geo', sans-serif;
+text-transform:uppercase;
+}
+
+#box2 {
+position:absolute;
+width:15%;
+height:16%;
+top:20%;
+left:28%;
+background-color:#686F9B;
+}
+
+#maintitle {
+position:absolute;
+background-color:#3595A1;
+width:44%;
+height:6%;
+top:20%;
+left:50%;
+transform: skew(-20deg);
+line-height:1.5;
+text-align:center;
+font-size:4vh;
+font-family: 'Bungee Outline', cursive;
+color:#FFFFFF;
+}
+
+#starstream1 {
+position:absolute;
+background-color:#686F9B;
+width:43.5%;
+height:0.5%;
+top:19%;
+left:51%;
+}
+
+#starstream2 {
+position:absolute;
+background-color:#FF6695;
+width:44.5%;
+height:0.5%;
+top:26.5%;
+left:49%;
+}
+
+#star {
+position:absolute;
+width:6%;
+height:12%;
+top:16%;
+left:48%;
+background-image: url('https://i.imgur.com/3bpdX6q.png') !important; 
+background-repeat:no-repeat !important; 
+background-position:center !important;
+background-size:100% 100%;
+}
+
+#containerborder {
+position:absolute;
+background-color:#46F9E6;
+width:46%;
+height:52%;
+top:30%;
+left:48%;
+}
+
+#container {
+position:absolute;
+padding:1%;
+overflow:auto;
+background-color:#000000;
+width:42%;
+height:44%;
+top:32%;
+left:49%;
+color:#FFFFFF;
+font-family: 'Raleway', sans-serif;
+font-size:1.5vh;
+}
+
+#tabbox1 {
+position:absolute;
+background-color:#2F344A;
+width:6%;
+height:3%;
+top:21.5%;
+left:29%;
+line-height:2;
+text-align:center;
+text-transform:uppercase;
+font-family: 'Raleway', sans-serif;
+font-size:1.5vh;
+color:#FF6695;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox1:hover {
+background-color:#3595A1;
+color:#FFFFFF;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox2 {
+position:absolute;
+background-color:#2F344A;
+width:6%;
+height:3%;
+top:21.5%;
+left:36%;
+line-height:2;
+text-align:center;
+text-transform:uppercase;
+font-family: 'Raleway', sans-serif;
+font-size:1.5vh;
+color:#FF6695;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox2:hover {
+background-color:#3595A1;
+color:#FFFFFF;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox3 {
+position:absolute;
+background-color:#2F344A;
+width:6%;
+height:3%;
+top:26.5%;
+left:29%;
+line-height:2;
+text-align:center;
+text-transform:uppercase;
+font-family: 'Raleway', sans-serif;
+font-size:1.5vh;
+color:#FF6695;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox3:hover {
+background-color:#3595A1;
+color:#FFFFFF;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox4 {
+position:absolute;
+background-color:#2F344A;
+width:6%;
+height:3%;
+top:26.5%;
+left:36%;
+line-height:2;
+text-align:center;
+text-transform:uppercase;
+font-family: 'Raleway', sans-serif;
+font-size:1.5vh;
+color:#FF6695;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox4:hover {
+background-color:#3595A1;
+color:#FFFFFF;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox5 {
+position:absolute;
+background-color:#2F344A;
+width:6%;
+height:3%;
+top:31.5%;
+left:29%;
+line-height:2;
+text-align:center;
+text-transform:uppercase;
+font-family: 'Raleway', sans-serif;
+font-size:1.5vh;
+color:#FF6695;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox5:hover {
+background-color:#3595A1;
+color:#FFFFFF;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox6 {
+position:absolute;
+background-color:#2F344A;
+width:6%;
+height:3%;
+top:31.5%;
+left:36%;
+line-height:2;
+text-align:center;
+text-transform:uppercase;
+font-family: 'Raleway', sans-serif;
+font-size:1.5vh;
+color:#FF6695;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tabbox6:hover {
+background-color:#3595A1;
+color:#FFFFFF;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs{
+display:block;
+width:100%;
+height:100%;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+.tabs:hover {
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+#tab1,#tab2,#tab3,#tab4,#tab5,#tab6,#tab7,#tab8,#tab9,#tab10,#tab11,#tab12,#tab13,#tab14,#tab15,#tab16,#tab17,#tab18,#tab19,#tab20,#tab21,#tab22,#tab23,#tab24 {
+display: none;
+}
+
+i {
+color:#686F9B;
+}
+
+u {
+color:#62F3B0;
+}
+
+a {
+color:#46F9E6;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+a:hover {
+color:#3595A1;
+-webkit-transition: all 0.8s ease-out;
+-moz-transition: all 0.8s ease-out;
+transition: all 0.8s ease-out;
+}
+
+b {
+color:#FF6695;
+font-family: 'Geo', sans-serif;
+}
+
+</style>
+
+<style type="text/css">* {cursor: url(http://cur.cursors-4u.net/cursors/cur-1/cur94.cur), auto !important;}</style>
+<link href="https://fonts.googleapis.com/css2?family=Bungee+Outline&family=Geo&family=Raleway:wght@300&display=swap" rel="stylesheet">
+<script>function changeNavigation(id) {document.getElementById('container').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation1(id) {document.getElementById('maintitle').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation2(id) {document.getElementById('pic1').innerHTML=document.getElementById(id).innerHTML}</script>
+<script>function changeNavigation3(id) {document.getElementById('pic2').innerHTML=document.getElementById(id).innerHTML}</script>
+
+<html>
+<div id="line"></div>
+<div id="line1"></div>
+<div id="line2"></div>
+<div id="line3"></div>
+<div id="line4"></div>
+<div id="line5"></div>
+<div id="line6"></div>
+<div id="line7"></div>
+
+<div id="picbox1"></div>
+<div id="pic1">
+<img style="height:100%;width:100%;" src="https://cdna.artstation.com/p/assets/images/images/013/838/152/large/koyori-n-oni-mask-squat.jpg?1541322075"/>
+</div>
+<div id="electricoverlay1"></div>
+<div id="titlebox1">
+Credit
+</div>
+<div id="box1">
+<br>
+Art: <a target="_blank" href="https://www.artstation.com/koyorin">Koyorin</a>, <a target="_blank" href="https://www.deviantart.com/axilusturner/art/Genji-Oni-749907930">AxilusTurner</a>, <a target="_blank" href="https://www.pinterest.com/pin/265782815493329618/">°☆•マット°☆•</a>
+<br>
+Music: <a target="_blank" href="https://www.youtube.com/watch?v=3SmodDU5m4A">BIOMETRIX x NBLM (feat. MVRT)</a>
+<br>
+Cursor: <a target="_blank" href="http://www.cursors-4u.com/">Cursors 4u</a>
+</div>
+<div id="picbox2"></div>
+<div id="pic2">
+<img style="height:100%;width:100%;" src="https://cdna.artstation.com/p/assets/images/images/014/257/436/large/koyori-n-emily.jpg?1543226386"/>
+</div>
+<div id="electricoverlay2"></div>
+<div id="titlebox2">
+Navigation
+</div>
+<div id="box2"></div>
+<div id="tabbox1">
+<span class="tabs" onClick="changeNavigation ('tab5');changeNavigation1 ('tab6');changeNavigation2 ('tab7');changeNavigation3 ('tab8')">Backstory</span>
+</div>
+<div id="tabbox2">
+<span class="tabs" onClick="changeNavigation ('tab9');changeNavigation1 ('tab10');changeNavigation2 ('tab11');changeNavigation3 ('tab12')">Lore</span>
+</div>
+<div id="tabbox3">
+<span class="tabs" onClick="changeNavigation ('tab13');changeNavigation1 ('tab14');changeNavigation2 ('tab15');changeNavigation3 ('tab16')">Racials</span>
+</div>
+<div id="tabbox4">
+<span class="tabs" onClick="changeNavigation ('tab17');changeNavigation1 ('tab18');changeNavigation2 ('tab19');changeNavigation3 ('tab20')">Magic</span>
+</div>
+<div id="tabbox5">
+<span class="tabs" onClick="changeNavigation ('tab21');changeNavigation1 ('tab22');changeNavigation2 ('tab23');changeNavigation3 ('tab24')">Inventory</span>
+</div>
+<div id="tabbox6">
+<span class="tabs" onClick="changeNavigation ('tab1');changeNavigation1 ('tab2');changeNavigation2 ('tab3');changeNavigation3 ('tab4')">Aesthetic</span>
+</div>
+
+<div id="starstream1"></div>
+<div id="maintitle">
+Augmented Oni
+</div>
+<div id="starstream2"></div>
+<div id="star"></div>
+
+<div id="containerborder"></div>
+<div id="container">
+<b>Name:</b> Shuten-doji<br>
+<b>Alias:</b> Shuten<br>
+<b>Title(s):</b> Silver<br>
+<b>Race:</b> Oni, Class → <u>MAG:E</u> (Magically Augmented Generation: Electric)<br>
+<b>True Age:</b> Forty-Three<br>
+<b>Appearing Age:</b> Twenty-One<br>
+<b>Gender:</b> Cis-Female<br>
+<b>Build:</b> Toned, Athletic<br>
+<b>Hair:</b> Silver<br>
+<b>Horns:</b> Light Blue<br>
+<b>Skin:</b> Pale Grey<br>
+<b>Eyes:</b> Bi-colored, Neon Blue & Pink<br>
+<b>Height:</b> 5’4”<br>
+<b>Weight:</b> 130 lbs.<br><br>
+<b>Appearance:</b><br>
+The majority of Shuten’s attributes are fairly average when compared to most humanoid females; she possesses a visible hourglass figure and curves in the typical places (chest, rear, thighs) but some unique characteristics can also be pinpointed on her person. Two short and slightly curved horns naturally protrude from the temples of her head, they are normally a pale blue crystal color--nearly translucent, in fact, possessing a milky quality often found in crystals--but can glow a brighter version of their natural hue when specific racials or abilities are active.
+<br><br>
+Her facial features are softer than the rest of her figure by contrast. While hard muscle can be witnessed against toned flesh, the Oni’s heart-shaped head instead seems to favor soft rounded cheeks, gentle curves in both her ever-so-slightly upturned nose and rosy lips, and symmetrical eyes. There is the smallest of points gathered at the top of the youth’s ears, inherited by ancestral Oni, but the most prominent of inhuman facial traits reside among her teeth and bi-colored gaze. Shuten possesses prominent upper fangs which are sharper and slightly longer than the rest of her chompers, especially visible when opening her mouth for any reason. Even more noticeable are her unique irises, which have to do with her race. She appears to have two rings in each eye as opposed to a normal human’s single circle of color. 
+<br><br>
+<b>Personality:</b><br>
+“Ambitious” is a valid term to describe a majority of her decisions and motives. Shuten-doji wants to become Ibaraki-doji more than anything, but such a promotion is not only extremely rare but also one of the hardest paths an Oni can walk. Proud of her heritage as she might be, Shuten is also realistic and understands that she will have to work hard to make her dreams into reality. Being prepared to do whatever it takes can often result in some backlash, however, especially when considering how selfish her long term goal truly is. She may be overbearingly loyal to the customs of her people, but that “loyalty” doesn’t carry into many other things … if anything at all. 
+</div>
+
+<div id="tab1">
+<b>Name:</b> Shuten-doji<br>
+<b>Alias:</b> Shuten<br>
+<b>Title(s):</b> Silver<br>
+<b>Race:</b> Oni, Class → <u>MAG:E</u> (Magically Augmented Generation: Electric)<br>
+<b>True Age:</b> Forty-Three<br>
+<b>Appearing Age:</b> Twenty-One<br>
+<b>Gender:</b> Cis-Female<br>
+<b>Build:</b> Toned, Athletic<br>
+<b>Hair:</b> Silver<br>
+<b>Horns:</b> Light Blue<br>
+<b>Skin:</b> Pale Grey<br>
+<b>Eyes:</b> Bi-colored, Neon Blue & Pink<br>
+<b>Height:</b> 5’4”<br>
+<b>Weight:</b> 130 lbs.<br><br>
+<b>Appearance:</b><br>
+The majority of Shuten’s attributes are fairly average when compared to most humanoid females; she possesses a visible hourglass figure and curves in the typical places (chest, rear, thighs) but some unique characteristics can also be pinpointed on her person. Two short and slightly curved horns naturally protrude from the temples of her head, they are normally a pale blue crystal color--nearly translucent, in fact, possessing a milky quality often found in crystals--but can glow a brighter version of their natural hue when specific racials or abilities are active.
+<br><br>
+Her facial features are softer than the rest of her figure by contrast. While hard muscle can be witnessed against toned flesh, the Oni’s heart-shaped head instead seems to favor soft rounded cheeks, gentle curves in both her ever-so-slightly upturned nose and rosy lips, and symmetrical eyes. There is the smallest of points gathered at the top of the youth’s ears, inherited by ancestral Oni, but the most prominent of inhuman facial traits reside among her teeth and bi-colored gaze. Shuten possesses prominent upper fangs which are sharper and slightly longer than the rest of her chompers, especially visible when opening her mouth for any reason. Even more noticeable are her unique irises, which have to do with her race. She appears to have two rings in each eye as opposed to a normal human’s single circle of color. 
+<br><br>
+<b>Personality:</b><br>
+“Ambitious” is a valid term to describe a majority of her decisions and motives. Shuten-doji wants to become Ibaraki-doji more than anything, but such a promotion is not only extremely rare but also one of the hardest paths an Oni can walk. Proud of her heritage as she might be, Shuten is also realistic and understands that she will have to work hard to make her dreams into reality. Being prepared to do whatever it takes can often result in some backlash, however, especially when considering how selfish her long term goal truly is. She may be overbearingly loyal to the customs of her people, but that “loyalty” doesn’t carry into many other things … if anything at all. 
+</div>
+<div id="tab2">
+Augmented Oni
+</div>
+<div id="tab3">
+<img style="height:100%;width:100%;" src="https://cdna.artstation.com/p/assets/images/images/013/838/152/large/koyori-n-oni-mask-squat.jpg?1541322075"/>
+</div>
+<div id="tab4">
+<img style="height:100%;width:100%;" src="https://cdna.artstation.com/p/assets/images/images/014/257/436/large/koyori-n-emily.jpg?1543226386"/>
+</div>
+
+<div id="tab5">
+In times long since passed all of Oni-kind could be accurately lumped into one common stereotype. They were near-mindless brutes with limited sentience. Whatever wants they had were driven entirely by their base needs, and while the creatures were often massive dangerous fiends who favored violence, they were easily tricked or trapped by any smarter foe. As the years went by their offspring began to adapt to the world around them in both a physical and mental sense. Self awareness enlightened these pitiful creatures to the fact that they were on the very bottom of the yōkai hierarchy, leading to a split in their own “society.” An ambitious few Oni were angered into action, swearing that they’d rise through the ranks and become a notable race of beings, terrifying enough to strike fear into the hearts of any living thing. Project MAG was officially founded.
+<br><br>
+Determination beget an impressive amount of dedication to experimentation with genetics. This was accomplished by selective breeding. All Oni involved in this endeavour agreed to have children with other races and raise them to continue MAG, resulting in the “perfect” racials of their choice for future offspring; a mindset which still exists in their culture today, however the focus has drastically changed. Instead of simply gathering DNA for racials specifically, current MAG Class Oni keep greedy eyes out for unique forms of magic with the intention of adding an affinity for that practice into their gene-pool.
+<br><br>
+This particular lifestyle has drastically adapted the culture of MAG Oni. All are expected to contribute to their peoples’ collective goal, failure to do so devalue’s the worth of an individual’s life and makes them expendable. It is custom for them to spread out across the worlds (or multiverse) in search of potential useful additions to their genetics as well as make names for themselves. Multiple Oni cannot occupy the same space or profession (within the same area/region). All children are born under the name “Shuten-doji,” but can earn the honorable leadership name of “Ibaraki-doji” if they prove to be an invaluable asset to the MAG project.
+<br><br>
+Silver Shuten is one such Oni, from sector MAG:E. She was born to an Oni mother and raised under MAG’s system, completely devoted to its cause. The way of Shinobi was passed down from mother to daughter, influencing her fighting styles, mannerisms, and choice of career. Starting out as a Bounty Hunter, she made enough of a name for herself to be noticed by a guild under the name Chiokini. Making it into their ranks was part of Shuten’s plan from the start, so naturally the youth accepted. Choosing a dangerous “underground” line of work had been part of her strategy; not only would she receive more training and have plenty of opportunities to put it into practice, but she’d catch wind of any other MAG Oni daring to follow in her footsteps and usurp her from the guild’s ranks long before they’d have the chance. In her mind the setup was perfect, and from there it only got better.
+<br><br>
+Chiokini’s head honcho was soon revealed to be playing favorites between their members. Most of her comrades were angered by this--understandably--but Shuten saw only an opportunity to get ahead. She worked hard to appear trustworthy, loyal, and completely impartial to preferential treatment, preaching the honest belief that their leader earned such a position and could do whatever they pleased with that power. This continued until the Oni got exactly what she wanted out of her own behavior: assigned to a special mission with the presumed “favorite.” Now Shuten roams the land with Karahashi Norinobu and former member Takosenshi Moya on a quest to apparently kill a god. An outlandish and seemingly impossible goal, but one that she’s more than willing to try. Surely such a feat would earn her the Ibaraki promotion she lusts after, and even if it turns out to be nothing more than a child’s dream then she is prepared to aid Nori in silencing their tentacled companion once and for all.
+</div>
+<div id="tab6">
+Rise of Mag
+</div>
+<div id="tab7">
+<img style="height:100%;width:100%;" src="https://i.pinimg.com/originals/a9/1e/69/a91e695ba63a7c0e6d1ab522bc6c835e.jpg"/>
+</div>
+<div id="tab8">
+<img style="height:100%;width:100%;" src="https://i.imgur.com/tbnbzKT.jpg"/>
+</div>
+
+<div id="tab9">
+<li>MAG is pronounced “mog,” and consists of several sectors divided by magic types. MAG:E (“mog-ee”) pertains to those born with an affinity for electromancy. Some examples of others are MAG:Fi (“mog-fie”) whose members are pyromancers, MAG:Ea (“mog-ayyyy”) whose members are geomancers, and MAG:Wa (“mog-wau”) which contains aquamancers. There are many with similar naming conventions. </li>
+<br>
+<li>One of the first true Ibaraki-doji still lives, they founded a unique sector known as MAG:Tra (“mog-trah”) which is a special breed of magic involving Transmutation. This particular Ibaraki uses their craft to create living organisms from any DNA collected which can successfully impregnate MAG Oni females through implantation, allowing selective breeding to overcome gender boundaries. </li>
+<br>
+<li>MAG Oni are permitted to cross paths and be friendly with one another, but if they desire to take up residence in the same place as another (“place” varies based on individual situations, it can be a neighborhood, town, kingdom, etc) then a test of strength occurs. They must vie for the right to take up space in that place by fighting to the death, to the victor goes the spoils. </li>
+<br>
+<li>Since MAG Oni have only two possible “true names” they are open to earning nicknames and titles. They will always be legally known as either Shuten-doji or Ibaraki-doji, but appreciate other namesakes given to them through relationships with others and/or earned from their careers. </li>
+<br>
+<li>A Female MAG Oni can either apply to be impregnated with test-fetuses developed by MAG:Tra or retrieve her own DNA. Impregnated women temporarily take up residence in nursery communities run by men, and are expected to raise their children (with the help of the community leaders--those aforementioned men) until the offspring are “of age,” ready to leave home and make their own way. Parents are permitted to give their child a “title” to aid in distinguishing them from the masses as their own. </li>
+<br>
+<p align="center"><i>More Relevant Factoids will be added as the lore is built and/or character development takes place.</i></p>
+</div>
+<div id="tab10">
+Relevant Factoids
+</div>
+<div id="tab11">
+<img style="height:100%;width:100%;" src="https://cdna.artstation.com/p/assets/images/images/017/095/524/large/koyori-n-emily-4.jpg?1554634246"/>
+</div>
+<div id="tab12">
+<img style="height:100%;width:100%;" src="https://cdna.artstation.com/p/assets/images/images/015/702/606/large/koyori-n-cyborg-rip.jpg?1549313419"/>
+</div>
+
+<div id="tab13">
+<b>Aging</b><br>
+The way Shuten’s people grow and age is similar--and pretty comparable to--how humans develop physically. However, it takes longer for a MAG Class Oni to age; for every one human year it takes them two. This gives them a much longer lifespan than that of an average mortal’s (anywhere between 140-180 years), and provides more time for physical and mental development during an Oni’s peak. They retain more, and can train muscle memory with precise practice, thanks to the slow progression of their bodies and minds.
+<br><br>
+<b>Skeleton Conduit</b><br>
+<u>PROS</u> → A MAG:E Oni’s bones (horns, teeth and finger/toenails included) possess fibers that are metal-like in nature; an evolutionary trait that allows them to conduct electrical energy with incredible finesse through their own bodies without damaging them internally. (tl;dr their bones kinda act like power cables) These aforementioned fibers also reinforce the strength and structure of their skeleton overall, making it much stronger and harder to break.
+<br>
+<u>CONS</u> → Should a fracture or break occur, not only will the natural healing process take twice as long (or twice as much magic when healers are added to the equation), but the area of breakage will be dangerous to pass electricity through as its conduit function will be compromised. 
+<br><br>
+<b>Lightning Rod(s)</b><br>
+<u>PROS</u> → Body heat can be channeled into one or both of Shuten’s horns. This causes them to glow and “activate” their special purpose as lightning rods. This is useful in the presence of storms, allowing herself to become a sentient target for lightning so that it can be processed through her Skeleton Conduit and repurposed into spells/techniques.
+<br>
+<u>CONS</u> → Each horn has its own individual body heat cost to become a successful Lightning Rod, one can be used without the other but will result in less control than if both are employed. In situations where she doesn’t have excess body heat to spare using this ability will make her very susceptible to cold and hypothermia.
+<br><br>
+<b>Bi-colored Vision</b><br>
+<u>PROS</u> → Shuten technically has two irises in each eye, as opposed to one, and they do function in a unique way. In their passive “normal” state, when the inner ring is neon blue and its outer counterpart is pink, she has fairly plain vision about the same as the average human’s except for one simple perk: Darkvision. Her eyes can adjust over the course of a few seconds to see up to fifty feet away in environments with dim or nearly nonexistent lighting. Should the colors of each ring be swapped, however, with the inner iris being neon pink and the outer shifting to blue, a new form of sight is engaged: Spiritvision. Spiritvision allows one to perceive their surroundings from the point-of-view of the Spirit World, giving them the ability to spot the ethereal and some other things such as otherwise “invisible” energies.
+<br>
+<u>CONS</u> → Adjusting in and out of Darkvision takes time, causing her eyes to be sensitive to sudden and extreme changes in lighting. Additionally upkeeping Spiritvision requires focus and concentration, the breaking of which will immediately revert her eyes back to their “normal” state. Some aspects of Spiritvision can be contested by very powerful magics. Continuous use of Spiritvision over long extended periods of time will lead to intense migraines thanks to the strain on her eyes. 
+<br><br>
+<b>Carnivore</b><br>
+<u>PROS</u> → Shuten’s stomach is designed to healthily break down meats, no matter how “fresh” (see: raw) or well-cooked they are, regardless of what creature they come from. Oni can be cannibals! Parasites and illnesses attributed to raw flesh cannot survive in the environment of an Oni’s stomach, protecting them from the negative effects of eating their kills fresh.
+<br>
+<u>CONS</u> → Any Oni can enjoy the taste of fruits and vegetables, but cannot gain nutrients from their consumption. In order to maintain a healthy diet their meals must contain meat and/or meat products.
+<br><br>
+<b>Enhanced Speed</b><br>
+The physical prowess of any MAG Oni depends entirely on which sector they are born into. Those among MAG:E are blessed with the speed of their body and mind. They can maintain higher movement speeds than the average humanoid (x2), as well as mental processing speed and reactionary speed (also x2). This can be increased further within their lifespans, over time, when undergoing harsh training that’s meant to push their limits. 
+<br><br>
+<b>Dominant Gene</b><br>
+All offspring born of Oni are also Oni. They have no half breeds, only further adapted and evolved generations. A child can--and most likely will--possess many of their “lesser parent’s” traits, but will still be entirely an Oni themself.
+</div>
+<div id="tab14">
+MAG:E Oni Racials
+</div>
+<div id="tab15">
+<img style="height:100%;width:100%;" src="https://cdnb.artstation.com/p/assets/images/images/026/092/531/large/koyori-n-emily-cloth.jpg?1587849491"/>
+</div>
+<div id="tab16">
+<img style="height:100%;width:100%;" src="https://cdna.artstation.com/p/assets/images/images/007/374/950/large/koyori-n-demon-assassin.jpg?1505714102"/>
+</div>
+
+<div id="tab17">
+<p align="center">This section is a <b>Work In Progress</b> and will be updated <u>soon</u>.</p>
+</div>
+<div id="tab18">
+Silver Shuten's Techniques
+</div>
+<div id="tab19">
+<img style="height:100%;width:100%;" src="https://cdnb.artstation.com/p/assets/images/images/022/938/675/large/koyori-n-game-over.jpg?1577377106"/>
+</div>
+<div id="tab20">
+<img style="height:100%;width:100%;" src="https://cdna.artstation.com/p/assets/images/images/014/394/872/original/koyori-n-emily-city-anim.gif?1543811606"/>
+</div>
+
+<div id="tab21">
+<p align="center">This section is a <b>Work In Progress</b> and will be updated <u>soon</u>.</p>
+</div>
+<div id="tab22">
+Oni's Tools & Tricks
+</div>
+<div id="tab23">
+<img style="height:100%;width:100%;" src="https://cdnb.artstation.com/p/assets/images/images/015/506/863/large/koyori-n-emily-vs-gangster.jpg?1548617248"/>
+</div>
+<div id="tab24">
+<img style="height:100%;width:100%;" src="https://cdna.artstation.com/p/assets/images/images/012/575/264/large/koyori-n-oni-mask.jpg?1535473825"/>
+</div>
+
+<embed style="height: 0%; width: 0%;"src="Shuten.mp3" autostart="true" loop="true">
+</html>
